@@ -1,0 +1,50 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "usename": "Jinisha",
+      "password": "jinisha123",
+      "role": "buyer",
+      "cart": []
+    },
+    {
+      "id": 2,
+      "usename": "Felipe",
+      "password": "felipe123",
+      "role": "artist",
+      "cart": []
+    }
+  ],
+  "arts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "title": "Contemporary dwellings",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
+      "category": "Acrylic",
+      "size": "80x80",
+      "date": ""
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "title": "FLORENCE",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3143/main/zoom/1946812_73b2238b9dbf82f2ece5687908efe181.jpeg",
+      "category": "Oil",
+      "size": "50x50",
+      "date": ""
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "title": "LoL",
+      "description": "",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/7963/main/zoom/1889532_0ccf300458b0eebf9129294b4e23cc45.jpeg",
+      "category": "Acrylic",
+      "size": "120x120",
+      "date": ""
+    }
+  ]
+}
