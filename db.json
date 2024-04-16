@@ -2,17 +2,71 @@
   "users": [
     {
       "id": 1,
-      "usename": "Jinisha",
+      "name": "Jinisha",
+      "email": "jinisha@gmail.com",
       "password": "jinisha123",
-      "role": "buyer",
-      "cart": []
+      "role": "artist",
+      "cart": [
+        9,
+        6
+      ],
+      "nationality": "Germany",
+      "gender": "female",
+      "photo": "https://womensagenda.com.au/wp-content/uploads/2021/03/yasmin_poole.png"
     },
     {
       "id": 2,
-      "usename": "Felipe",
+      "name": "Felipe",
       "password": "felipe123",
       "role": "artist",
-      "cart": []
+      "photo": "https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?w=996&t=st=1713247291~exp=1713247891~hmac=8350ac5d35675acbd33cc39c764095818aa86c3eda3d850c9de0de995bd7fffe",
+      "cart": [],
+      "nationality": "Germany",
+      "gender": "male"
+    },
+    {
+      "name": "Gunjan",
+      "email": "gunjan@gmail.com",
+      "password": "gunjan123",
+      "role": "artist",
+      "cart": [
+        2,
+        1
+      ],
+      "photo": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&uid=R142681552&ga=GA1.1.1969236048.1711128388&semt=sph",
+      "id": 3,
+      "nationality": "India",
+      "gender": "male"
+    },
+    {
+      "id": 4,
+      "name": "Keya",
+      "email": "keya@gmail.com",
+      "password": "keya123",
+      "role": "artist",
+      "cart": [],
+      "nationality": "Germany",
+      "gender": "female"
+    },
+    {
+      "id": 5,
+      "name": "Richard",
+      "password": "richard123",
+      "role": "artist",
+      "cart": [],
+      "nationality": "Germany",
+      "gender": "male"
+    },
+    {
+      "name": "Kavit",
+      "email": "kavit@gmail.com",
+      "password": "kavit123",
+      "role": "artist",
+      "cart": [],
+      "photo": "https://img.freepik.com/free-photo/medium-shot-smiley-man-posing_23-2148920610.jpg?w=900&t=st=1713247990~exp=1713248590~hmac=b4642c33109fd7aca27d039303334e1c5899f0b432c0cfaf2755728abf5c3f3c",
+      "id": 6,
+      "nationality": "India",
+      "gender": "male"
     }
   ],
   "arts": [
@@ -24,17 +78,19 @@
       "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
       "category": "Acrylic",
       "size": "80x80",
-      "date": ""
+      "date": "",
+      "price": 200
     },
     {
       "id": 2,
       "userId": 2,
       "title": "FLORENCE",
       "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
-      "image": "https://www.singulart.com/images/artworks/v2/cropped/3143/main/zoom/1946812_73b2238b9dbf82f2ece5687908efe181.jpeg",
+      "image": "https://www.victoryart.eu/obchod_homedir/data/2611/obrazky/IMG_6755.webp",
       "category": "Oil",
       "size": "50x50",
-      "date": ""
+      "date": "",
+      "price": 200
     },
     {
       "id": 3,
@@ -44,7 +100,107 @@
       "image": "https://www.singulart.com/images/artworks/v2/cropped/7963/main/zoom/1889532_0ccf300458b0eebf9129294b4e23cc45.jpeg",
       "category": "Acrylic",
       "size": "120x120",
-      "date": ""
+      "date": "",
+      "price": 200
+    },
+    {
+      "id": 4,
+      "userId": 2,
+      "title": "Contemporary dwellings",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
+      "category": "Acrylic",
+      "size": "80x80",
+      "date": "",
+      "price": 200
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "title": "FLORENCE",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3143/main/zoom/1946812_73b2238b9dbf82f2ece5687908efe181.jpeg",
+      "category": "Oil",
+      "size": "50x50",
+      "date": "",
+      "price": 200
+    },
+    {
+      "id": 6,
+      "userId": 2,
+      "title": "LoL",
+      "description": "",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/7963/main/zoom/1889532_0ccf300458b0eebf9129294b4e23cc45.jpeg",
+      "category": "Acrylic",
+      "size": "120x120",
+      "date": "",
+      "price": 100
+    },
+    {
+      "id": 7,
+      "userId": 2,
+      "title": "Contemporary dwellings",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
+      "category": "Acrylic",
+      "size": "80x80",
+      "date": "",
+      "price": 150
+    },
+    {
+      "id": 8,
+      "userId": 2,
+      "title": "FLORENCE",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3143/main/zoom/1946812_73b2238b9dbf82f2ece5687908efe181.jpeg",
+      "category": "Oil",
+      "size": "50x50",
+      "date": "",
+      "price": 170
+    },
+    {
+      "id": 9,
+      "userId": 2,
+      "title": "LoL",
+      "description": "",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/7963/main/zoom/1889532_0ccf300458b0eebf9129294b4e23cc45.jpeg",
+      "category": "Acrylic",
+      "size": "120x120",
+      "date": "",
+      "price": 120
+    },
+    {
+      "id": 10,
+      "userId": 2,
+      "title": "Contemporary dwellings",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
+      "category": "Acrylic",
+      "size": "80x80",
+      "date": "",
+      "price": 80
+    },
+    {
+      "id": 11,
+      "userId": 2,
+      "title": "FLORENCE",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3143/main/zoom/1946812_73b2238b9dbf82f2ece5687908efe181.jpeg",
+      "category": "Oil",
+      "size": "50x50",
+      "date": "",
+      "price": 175
+    },
+    {
+      "id": 12,
+      "userId": 2,
+      "title": "LoL",
+      "description": "",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/7963/main/zoom/1889532_0ccf300458b0eebf9129294b4e23cc45.jpeg",
+      "category": "Acrylic",
+      "size": "120x120",
+      "date": "",
+      "price": 300
     }
   ]
 }
