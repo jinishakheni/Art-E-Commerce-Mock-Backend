@@ -6,10 +6,7 @@
       "email": "jinisha@gmail.com",
       "password": "jinisha123",
       "role": "artist",
-      "cart": [
-        9,
-        6
-      ],
+      "cart": [9, 6],
       "nationality": "Germany",
       "gender": "female",
       "photo": "https://womensagenda.com.au/wp-content/uploads/2021/03/yasmin_poole.png"
@@ -29,10 +26,7 @@
       "email": "gunjan@gmail.com",
       "password": "gunjan123",
       "role": "artist",
-      "cart": [
-        2,
-        1
-      ],
+      "cart": [2, 1],
       "photo": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&uid=R142681552&ga=GA1.1.1969236048.1711128388&semt=sph",
       "id": 3,
       "nationality": "India",
@@ -78,7 +72,7 @@
       "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
       "category": "Acrylic",
       "size": "80x80",
-      "date": "",
+      "date": "2020",
       "price": 200
     },
     {
@@ -87,7 +81,7 @@
       "title": "FLORENCE",
       "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
       "image": "https://www.victoryart.eu/obchod_homedir/data/2611/obrazky/IMG_6755.webp",
-      "category": "Oil",
+      "category": "Abstract",
       "size": "50x50",
       "date": "",
       "price": 200
@@ -138,7 +132,7 @@
     },
     {
       "id": 7,
-      "userId": 2,
+      "userId": 3,
       "title": "Contemporary dwellings",
       "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
       "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
@@ -149,7 +143,7 @@
     },
     {
       "id": 8,
-      "userId": 2,
+      "userId": 1,
       "title": "FLORENCE",
       "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
       "image": "https://www.singulart.com/images/artworks/v2/cropped/3143/main/zoom/1946812_73b2238b9dbf82f2ece5687908efe181.jpeg",
