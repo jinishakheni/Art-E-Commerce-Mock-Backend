@@ -18,6 +18,7 @@ server.use((req, res, next) => {
 	next();
 });
 
+server.use(jsonServer.bodyParser);
 server.get('/arts/:id', (req, res) => {
 	const { id } = req.params;
 	const art = db.arts.find(art => art.id === parseInt(id));
@@ -25,7 +26,7 @@ server.get('/arts/:id', (req, res) => {
 		return res.status(404).json({ message: 'Art not found' });
 	}
 	const user = db.users.find(user => user.id === art.userId);
-	const result = { ...art, artist: user.name, photo: user.photo };
+	const result = { ...art, artist: user.name, photo: user.photo, gender: user.gender };
 	res.json(result);
 });
 

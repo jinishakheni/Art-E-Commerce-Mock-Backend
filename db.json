@@ -6,31 +6,35 @@
       "email": "jinisha@gmail.com",
       "password": "jinisha123",
       "role": "artist",
-      "cart": [9, 6],
+      "cart": [],
       "nationality": "Germany",
-      "gender": "female",
-      "photo": "https://womensagenda.com.au/wp-content/uploads/2021/03/yasmin_poole.png"
+      "gender": "Female",
+      "photo": "https://womensagenda.com.au/wp-content/uploads/2021/03/yasmin_poole.png",
+      "description": "Joanna Wietrzycka was born in 1978 in Rymanów, a small town in Poland. She has always liked to create and paint. She graduated the Faculty of Architecture at the Cracow University of Technology and Cracow School of Art and Fashion Design....."
     },
     {
       "id": 2,
-      "name": "Felipe",
+      "name": "Felipe C",
       "password": "felipe123",
+      "email": "felipe@gmail.com",
       "role": "artist",
-      "photo": "https://img.freepik.com/free-photo/handsome-bearded-guy-posing-against-white-wall_273609-20597.jpg?w=996&t=st=1713247291~exp=1713247891~hmac=8350ac5d35675acbd33cc39c764095818aa86c3eda3d850c9de0de995bd7fffe",
+      "photo": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "cart": [],
       "nationality": "Germany",
-      "gender": "male"
+      "gender": "Male",
+      "description": "I have always wanted to be an artist. Because I was passionate about learning art from a young age, I started partaking in art classes at primary school in my hometown. When it was time for me to choose my studies, I was stern about my decision to study painting. Unfortunately, there were no universities with art degrees in my hometown, so I decided to move to a different city in Hungary to receive my painting degree."
     },
     {
       "name": "Gunjan",
       "email": "gunjan@gmail.com",
       "password": "gunjan123",
       "role": "artist",
-      "cart": [2, 1],
+      "cart": [],
       "photo": "https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?size=626&ext=jpg&uid=R142681552&ga=GA1.1.1969236048.1711128388&semt=sph",
       "id": 3,
       "nationality": "India",
-      "gender": "male"
+      "gender": "Male",
+      "description": "I’ve been working as a graphic designer for 13+ years. As an emerging artist (started painting in 2020) I combine abstract and figurative elements in my work, using acrylics, ink and fluorescent spray paint."
     },
     {
       "id": 4,
@@ -40,7 +44,9 @@
       "role": "artist",
       "cart": [],
       "nationality": "Germany",
-      "gender": "female"
+      "gender": "Female",
+      "photo": "https://img.freepik.com/free-photo/medium-shot-smiley-man-posing_23-2148920610.jpg?w=900&t=st=1713247990~exp=1713248590~hmac=b4642c33109fd7aca27d039303334e1c5899f0b432c0cfaf2755728abf5c3f3c",
+      "description": "A landscape painter and nature is the major theme in her work. Her concern is not to show things how they are but to show the emotional experience of nature which allows some kind of abstraction of the depiction. "
     },
     {
       "id": 5,
@@ -49,42 +55,47 @@
       "role": "artist",
       "cart": [],
       "nationality": "Germany",
-      "gender": "male"
+      "gender": "Male",
+      "photo": "https://img.freepik.com/free-photo/medium-shot-smiley-man-posing_23-2148920610.jpg?w=900&t=st=1713247990~exp=1713248590~hmac=b4642c33109fd7aca27d039303334e1c5899f0b432c0cfaf2755728abf5c3f3c",
+      "description": "A landscape painter and nature is the major theme in her work. Her concern is not to show things how they are but to show the emotional experience of nature which allows some kind of abstraction of the depiction. "
     },
     {
       "name": "Kavit",
       "email": "kavit@gmail.com",
       "password": "kavit123",
-      "role": "artist",
+      "role": "buyer",
       "cart": [],
       "photo": "https://img.freepik.com/free-photo/medium-shot-smiley-man-posing_23-2148920610.jpg?w=900&t=st=1713247990~exp=1713248590~hmac=b4642c33109fd7aca27d039303334e1c5899f0b432c0cfaf2755728abf5c3f3c",
       "id": 6,
       "nationality": "India",
-      "gender": "male"
+      "gender": "Male",
+      "description": "A landscape painter and nature is the major theme in her work. Her concern is not to show things how they are but to show the emotional experience of nature which allows some kind of abstraction of the depiction. "
     }
   ],
   "arts": [
     {
-      "id": 1,
-      "userId": 2,
-      "title": "Contemporary dwellings",
+      "title": "Contemporary dwellings...",
       "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
-      "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
-      "category": "Acrylic",
+      "category": "oil",
       "size": "80x80",
       "date": "2020",
-      "price": 200
+      "price": 200,
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
+      "userId": 2,
+      "inCart": 0,
+      "id": 1
     },
     {
-      "id": 2,
-      "userId": 2,
       "title": "FLORENCE",
-      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
-      "image": "https://www.victoryart.eu/obchod_homedir/data/2611/obrazky/IMG_6755.webp",
-      "category": "Abstract",
+      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request...",
+      "category": "oil",
       "size": "50x50",
-      "date": "",
-      "price": 200
+      "date": "2024",
+      "price": 200,
+      "image": "https://www.victoryart.eu/obchod_homedir/data/2611/obrazky/IMG_6755.webp",
+      "userId": 2,
+      "inCart": 0,
+      "id": 2
     },
     {
       "id": 3,
@@ -95,7 +106,8 @@
       "category": "Acrylic",
       "size": "120x120",
       "date": "",
-      "price": 200
+      "price": 200,
+      "inCart": 0
     },
     {
       "id": 4,
@@ -106,7 +118,8 @@
       "category": "Acrylic",
       "size": "80x80",
       "date": "",
-      "price": 200
+      "price": 200,
+      "inCart": 0
     },
     {
       "id": 5,
@@ -117,7 +130,8 @@
       "category": "Oil",
       "size": "50x50",
       "date": "",
-      "price": 200
+      "price": 200,
+      "inCart": 0
     },
     {
       "id": 6,
@@ -128,7 +142,8 @@
       "category": "Acrylic",
       "size": "120x120",
       "date": "",
-      "price": 100
+      "price": 100,
+      "inCart": 0
     },
     {
       "id": 7,
@@ -139,62 +154,20 @@
       "category": "Acrylic",
       "size": "80x80",
       "date": "",
-      "price": 150
+      "price": 150,
+      "inCart": 2
     },
     {
-      "id": 8,
+      "title": "Cold Winter",
+      "description": "Describes the calmness in one's inner soul.",
+      "category": "Nature",
+      "size": "40 x 50",
+      "date": "2019",
+      "price": 250,
+      "image": "https://www.victoryart.eu/obchod_homedir/data/2611/obrazky/40109350-20.webp",
       "userId": 1,
-      "title": "FLORENCE",
-      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
-      "image": "https://www.singulart.com/images/artworks/v2/cropped/3143/main/zoom/1946812_73b2238b9dbf82f2ece5687908efe181.jpeg",
-      "category": "Oil",
-      "size": "50x50",
-      "date": "",
-      "price": 170
-    },
-    {
-      "id": 9,
-      "userId": 2,
-      "title": "LoL",
-      "description": "",
-      "image": "https://www.singulart.com/images/artworks/v2/cropped/7963/main/zoom/1889532_0ccf300458b0eebf9129294b4e23cc45.jpeg",
-      "category": "Acrylic",
-      "size": "120x120",
-      "date": "",
-      "price": 120
-    },
-    {
-      "id": 10,
-      "userId": 2,
-      "title": "Contemporary dwellings",
-      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
-      "image": "https://www.singulart.com/images/artworks/v2/cropped/3605/main/zoom/1913789_624be90517bc714e02f4a07f95dad2f5.jpeg",
-      "category": "Acrylic",
-      "size": "80x80",
-      "date": "",
-      "price": 80
-    },
-    {
-      "id": 11,
-      "userId": 2,
-      "title": "FLORENCE",
-      "description": "Artwork on supported wooden frame. Ready to hang. Framing on request.",
-      "image": "https://www.singulart.com/images/artworks/v2/cropped/3143/main/zoom/1946812_73b2238b9dbf82f2ece5687908efe181.jpeg",
-      "category": "Oil",
-      "size": "50x50",
-      "date": "",
-      "price": 175
-    },
-    {
-      "id": 12,
-      "userId": 2,
-      "title": "LoL",
-      "description": "",
-      "image": "https://www.singulart.com/images/artworks/v2/cropped/7963/main/zoom/1889532_0ccf300458b0eebf9129294b4e23cc45.jpeg",
-      "category": "Acrylic",
-      "size": "120x120",
-      "date": "",
-      "price": 300
+      "inCart": 0,
+      "id": 9
     }
   ]
 }
