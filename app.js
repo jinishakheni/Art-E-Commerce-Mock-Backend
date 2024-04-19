@@ -18,9 +18,11 @@ server.use((req, res, next) => {
 	next();
 });
 
-server.use(jsonServer.bodyParser);
 server.get('/arts/:id', (req, res) => {
 	const { id } = req.params;
+	console.log("type of id", typeof id);
+	console.log("id", id);
+
 	const art = db.arts.find(art => art.id === parseInt(id));
 	if (!art) {
 		return res.status(404).json({ message: 'Art not found' });
