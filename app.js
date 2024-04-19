@@ -24,6 +24,7 @@ server.get('/arts/:id', (req, res) => {
 	console.log("id", id);
 
 	const art = db.arts.find(art => art.id === parseInt(id));
+	console.log("check me", JSON.stringify(art));
 	if (!art) {
 		return res.status(404).json({ message: 'Art not found' });
 	}
