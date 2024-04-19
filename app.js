@@ -18,21 +18,6 @@ server.use((req, res, next) => {
 	next();
 });
 
-server.get('/arts/:id', (req, res) => {
-	const { id } = req.params;
-	console.log("type of id", typeof id);
-	console.log("id", id);
-
-	const art = db.arts.find(art => art.id === parseInt(id));
-	console.log("check me", JSON.stringify(art));
-	if (!art) {
-		return res.status(404).json({ message: 'Art not found' });
-	}
-	const user = db.users.find(user => user.id === art.userId);
-	const result = { ...art, artist: user.name, photo: user.photo, gender: user.gender };
-	res.json(result);
-});
-
 server.use(router);
 
 server.listen(PORT, () => {
