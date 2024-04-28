@@ -30,7 +30,7 @@
       "password": "camila123",
       "role": "artist",
       "cart": [],
-      "photo": "https://img.freepik.com/free-photo/woman-posing-chair_144627-38946.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712793600&semt=ais",
+      "photo": "https://img.freepik.com/free-photo/portrait-smiley-woman_23-2148827181.jpg?w=996&t=st=1714289190~exp=1714289790~hmac=20235e0aa858e9b357e80df8c798264fb99ff6fc292448e77a7b8b396cc3220f",
       "id": 3,
       "nationality": "Spain",
       "gender": "Female",
@@ -45,7 +45,7 @@
       "cart": [],
       "nationality": "Germany",
       "gender": "Female",
-      "photo": "https://img.freepik.com/free-photo/portrait-blonde-young-woman-with-gray-eyes-standing-front-leaves_23-2148049625.jpg?size=626&ext=jpg&uid=R142681552&ga=GA1.1.1969236048.1711128388&semt=ais",
+      "photo": "https://img.freepik.com/free-photo/portrait-pretty-young-woman-with-chin-her-hand-against-pink-wallpaper_23-2148048834.jpg?w=996&t=st=1714289244~exp=1714289844~hmac=b8c3fef8013f8143054a373d808e522e6929144b9fb5a18b56e8509616f00bba",
       "description": "Violet is a landscape painter and nature is the major theme in her work. Her concern is not to show things how they are but to show the emotional experience of nature which allows some kind of abstraction of the depiction. "
     }
   ],
@@ -141,7 +141,7 @@
       "size": "80 x 80",
       "date": "2023",
       "price": 990,
-      "image": "https://www.singulart.com/images/artworks/v2/cropped/27199/main/zoom/1822044_4d5b33a1f5d23290b5ac388617ee2408.jpegp",
+      "image": "https://www.singulart.com/images/artworks/v2/cropped/27199/main/zoom/1822044_4d5b33a1f5d23290b5ac388617ee2408.jpeg",
       "userId": 3,
       "inCart": 0,
       "id": 8
